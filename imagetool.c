@@ -12,7 +12,7 @@ void print_usage() {
 	XLOG(0, "|			-by Steven Troughton-Smith			|\n");
 	XLOG(0, "|			-based on imagetool in xpwn			|\n");
 	XLOG(0, "  ---------------------------------------------------------------------\n\n");
-	XLOG(0, "	usage:		img3decrypt extract [input.dmg] [output.dmg] [iv] [key]\n");
+	XLOG(0, "	usage:		img3decrypt e [input.dmg] [output.dmg] [iv] [key]\n");
 }
 
 int main(int argc, char* argv[]) {
